@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const { Userobject, Todoobject } = require('./errorhandling.js');
 const { UserSchema, TodoSchema } = require('./models.js');
 
-mongoose.connect('mongodb+srv://johnthomasthedev:fgrdv0DclMPtwLVD@cluster0.mwcfi4i.mongodb.net/todo-app?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('enter your mongodb url')
 
 // const users = mongoose.model('users',{name:String});
 // const peeps = new users({name:"John"});

@@ -1,0 +1,8 @@
+Ok so turbo repo is basically a repo which caches builds so that we dont build the same thing again and again
+it also has a dependency graph thing so to build something lets say that it has dependency to something else
+so we basically build that first and assume two things are depended on it now that the dependency is build
+we can basically build those two things parallelly.
+
+Okay now so the packages is the folder that is common (it might contain like react components dependencies etc) to the next.js applications (yes there is more than one)
+so we update those packages which are common to them look at packages/ui/src those are the components
+used by both the apps/docs and apps/web

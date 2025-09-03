@@ -1,0 +1,92 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#about{
+    background-color: #333333;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    height:35px;
+    text-align: center;
+} 
+
+.about-design{
+    padding-left: 12px;
+    padding-right:12px
+}
+
+#line{
+    background-color: #6f7ec9;
+    height: 5px;
+}
+
+#pic{
+    padding: 50px;
+    background: #a724ff;
+    background: radial-gradient(circle,rgba(167, 36, 255, 1) 10%, rgba(107, 10, 204, 1) 82%); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:white    
+}
+
+#about-para{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #f9f9f9;
+    text-align: center;
+    height: 50px;
+}
+
+#skills{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.skills-content{
+    background-color: #e9f0fe;
+    width:300px;
+    height:75px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-left: blue 5px solid;
+
+}
+
+#contact{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.contact-content{
+    background-color: #f0f0f0;
+    width:300px;
+    height:75px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link-color{
+    color:rgb(69, 69, 255)
+}
+
+#license{
+    margin-top:25px;
+    color:white;
+    background-color: #333333;
+    text-align: center;
+    height:25px;
+}

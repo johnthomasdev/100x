@@ -1,0 +1,15 @@
+body{
+    background-color: #ffae7c;
+    color:white;
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 2px 2px 4px #000000;
+}
+.btn{
+    margin-top: 20px;
+    font-size: large;
+}
+
+#login_status{
+    margin-top:10px;
+}

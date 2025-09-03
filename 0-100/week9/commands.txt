@@ -1,0 +1,8 @@
+npm init -y
+npx tsc --init or tsc --init
+tsc -b to compile makes a .js file
+node a.js
+
+
+To install express
+`npm install express @types/express`

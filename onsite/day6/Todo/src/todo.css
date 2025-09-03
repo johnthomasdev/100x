@@ -1,0 +1,39 @@
+.todo{
+    background-color: #212121;
+    color:white;
+    padding-top: 15%;
+    text-shadow: 2px 2px 4px #000000;
+    height: 100vh;
+}
+
+.todo #todo{
+    text-align: center;
+}
+
+.todo #btn{
+    margin-top: 20px;
+    font-size: large;
+}
+
+.todo #add{
+    color:green
+}
+
+.todo #logout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right:10px;
+    font-size: large;
+    color:red
+}
+
+.todo #todo-list{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.todo #login_status{
+    margin-top:10px;
+}

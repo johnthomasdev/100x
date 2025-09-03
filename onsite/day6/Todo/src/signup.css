@@ -1,0 +1,16 @@
+.signup{
+    background-color: #97dcfc;
+    color:white;
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 2px 2px 4px #000000;
+    height: 100vh; /*makes the full page colored*/
+}
+#btn{
+    margin-top: 20px;
+    font-size: large;
+}
+
+#status{
+    margin-top:10px;
+}

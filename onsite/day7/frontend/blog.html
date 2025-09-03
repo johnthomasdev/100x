@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            My Blogs
+        </title>
+        <link href = 'blog.css' rel = 'stylesheet'> 
+    </head>
+    <body>
+        <div id = 'blog'>
+            <h1>Your Blogs: </h1>
+            <h1><button id = 'view-all' onclick = 'viewallblogs()'>View All Blogs</button></h1>
+            <div>
+                <span>Title: <input id = 'blog-title' type = 'text' placeholder = 'Enter blog title..'/></span>
+                <span>Content: <input id = 'blog-content' type = 'text' placeholder = 'Enter blog content'/></span>
+                <button id = 'add' onclick = 'createblog()'>Add Blog</button>
+                <div id = 'blog-list'></div>
+            </div>
+             
+        </div>
+        <button id = 'logout' onclick = 'logout()'>Logout</button>
+        <script src = 'script.js'></script>
+    </body>
+</html>

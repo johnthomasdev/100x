@@ -1,0 +1,44 @@
+`docker run --name my-redis -d -p 6379:6379 redis`
+
+--name just puts name for it
+
+-d makes it run in the background
+
+-p host port (basically the website port) : container port 
+
+redis is the image name
+
+
+
+`docker ps -a` to see all containers
+
+`docker stop my-redis` to stop it
+
+`docker start my-redis` to start it again
+
+`docker rm my-redis` to remove it
+
+`docker logs my-redis` to see the logs
+
+
+
+
+`docker exec -it my-redis sh` to get into the container instead of sh you can do bash or bin/bash
+
+exec basically runs a command in a running container
+
+`-it` makes it interactive
+
+
+
+
+`redis cli` to get into the redis cli
+
+
+REDIS CLI Commands:
+
+set val 
+
+get val
+
+del val

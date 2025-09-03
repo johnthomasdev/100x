@@ -1,0 +1,7 @@
+npm init -y
+
+npx tsc --init
+
+npm i ws @types/ws
+
+npm i express @types/express

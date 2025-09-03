@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            Calculator Full stack
+        </title>
+        <link href = 'styles.css' rel = 'stylesheet'>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <input  placeholder = "First number" type = 'text' id = 'one'/>
+        <input  placeholder = "Second number" type = 'text' id = 'two'/>
+        <button onclick = 'sum()'>+</button>
+        <button onclick = 'diff()'>-</button>
+        <button onclick = 'mul()'>*</button>
+        <button onclick = 'div()'>/</button>
+        <h1>Result:</h1>
+        <span id = 'result'></span>
+        <script src = 'script.js'></script>
+    </body>
+</html>
